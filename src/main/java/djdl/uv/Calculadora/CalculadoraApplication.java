@@ -8,7 +8,6 @@ public class CalculadoraApplication {
 static Scanner scan = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		
 		SpringApplication.run(CalculadoraApplication.class, args);
 		System.out.println("¿Cuál es tu nombre?");
 		String nombre = scan.nextLine();
@@ -29,7 +28,6 @@ static Scanner scan = new Scanner(System.in);
     }
     
     public static int mostrarMenu(){
-
         System.out.println("Bienvenido a las tablas de multiplicar");
         System.out.println("1.- Mostrar una tabla");
         System.out.println("2.- Mostrar tablas del 2 al 5");
