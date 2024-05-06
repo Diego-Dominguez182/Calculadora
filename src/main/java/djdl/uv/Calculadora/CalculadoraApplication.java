@@ -10,6 +10,9 @@ static Scanner scan = new Scanner(System.in);
 	public static void main(String[] args) {
 		
 		SpringApplication.run(CalculadoraApplication.class, args);
+		System.out.println("¿Cuál es tu nombre?");
+		String nombre = scan.nextLine();
+		System.out.print("Hola " + nombre +" ");
 		int eleccion = mostrarMenu();
         while(eleccion != 3){
             switch (eleccion) {
