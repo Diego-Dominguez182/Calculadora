@@ -43,4 +43,13 @@ static Scanner scan = new Scanner(System.in);
         }
     }
 
+	public static void mostrarTablas(){
+        System.out.println("Lta blas del 2 al 5 son");
+        for (int i = 2; i <= 5; i++){
+            System.out.println();
+            for (int j = 0; j <= 10; j++){
+                System.out.println(i + " * " + j + " = " + i * j);
+            }
+        }
+	}
 }
